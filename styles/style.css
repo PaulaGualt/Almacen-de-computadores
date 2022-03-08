@@ -1,0 +1,82 @@
+body {
+    margin:0px;
+    background-color: aliceblue;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.menuNavegable {
+    background-color: #5499C7 ;
+    border: 2px solid #5499C7 ;
+    display:flex;
+    justify-content: space-between;
+}
+.menu .itemMenu{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.menuNavegable h1{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.menuNavegable ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-align:left;  
+}
+
+.menuNavegable ul li{
+    display:inline-block;
+
+}
+.menuNavegable ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: right;
+
+}
+ul{
+    margin:0;
+    padding:0;
+    }
+ul li{
+    display:block;
+    float:left;
+    padding:0 10px;
+}
+.contenidoNavegable {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    border:2px solid cornflowerblue;
+}
+.contenedorProductos {
+    margin-left: 25%;
+    
+}
+.contenedorComputadores{
+    margin-left: 20px;
+    position:relative;
+}
+.contenedorComputadores img {
+    width: 200px;
+}
+.botonAgregar{
+    background-color:#5DADE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.botonAgregar:hover {
+    background-color: aquamarine;
+    color: black;
+}
